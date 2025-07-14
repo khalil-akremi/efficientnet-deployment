@@ -1,7 +1,8 @@
 
-# Minimal versions to reduce build time
-torch==2.2.0
-torchvision==0.17.0
+# Try CPU-only lightweight versions
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.0.0+cpu
+torchvision==0.15.1+cpu
 gradio==3.39.0
 pillow==9.5.0
-numpy==1.24.0
+numpy==1.23.5
