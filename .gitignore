@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pth
+*.pt
+venv/
+.venv/
+
+# System
+.DS_Store
+Thumbs.db
