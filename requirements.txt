@@ -1,5 +1,13 @@
-torch==2.0.0
-torchvision==0.15.1
+# Try lighter versions first
+torch==2.0.0+cpu
+torchvision==0.15.1+cpu
 gradio==3.39.0
 pillow==9.5.0
 numpy==1.23.5
+
+# Alternative: If CPU versions don't work, try these
+# torch==2.0.0
+# torchvision==0.15.1
+# gradio==3.39.0
+# pillow==9.5.0
+# numpy==1.23.5
